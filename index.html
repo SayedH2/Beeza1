@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5ef">
+  <meta name="description" content="Beeza helps students in Bahrain keep track of daily spending and build better money habits.">
+  <title>Beeza — Make today’s money go further</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Beeza home">
+      <span class="brand-mark" aria-hidden="true">b</span>
+      <span>beeza</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only">Open menu</span>
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#solutions">What it does</a>
+      <a href="#features">Why Beeza</a>
+      <a href="#demo">Preview</a>
+      <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> A little more in control</p>
+        <h1>Make today’s<br>money go <span>further.</span></h1>
+        <p class="hero-intro">Beeza helps students in Bahrain see what they spend today—and set a daily limit that feels right.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#demo">See the preview <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#solutions">Get to know Beeza <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note">
+          <span class="note-icon" aria-hidden="true">✳</span>
+          <span>Small spends add up.<br><strong>A quick check can help.</strong></span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of the Beeza daily spending preview">
+        <div class="visual-sticker sticker-top">Your money,<br>in view.</div>
+        <div class="phone-card" id="hero-dashboard" aria-busy="true">
+          <div class="phone-topline"><span>9:41</span><span aria-hidden="true">•••</span></div>
+          <div class="phone-greeting"><span>MONDAY, 16 NOV</span><span class="avatar">S</span></div>
+          <h2>Today</h2>
+          <p class="muted small-copy">You’ve spent</p>
+          <div class="amount-row"><strong>BHD <span data-spent>2.10</span></strong><span class="budget-total">of 5.00</span></div>
+          <div class="meter" role="progressbar" aria-label="Daily spending" aria-valuemin="0" aria-valuemax="100" aria-valuenow="42">
+            <span data-meter></span>
+          </div>
+          <div class="meter-label"><span data-meter-label>42% of your day</span><span class="safe-label">On track</span></div>
+          <div class="phone-divider"></div>
+          <div class="phone-section-title"><strong>Today’s activity</strong><span>See all</span></div>
+          <div class="transaction"><span class="transaction-icon coffee" aria-hidden="true">✳</span><span class="transaction-name">Coffee shop<small>Today · 9:12 am</small></span><strong>−0.80</strong></div>
+          <div class="transaction"><span class="transaction-icon ride" aria-hidden="true">↗</span><span class="transaction-name">Ride<small>Today · 8:40 am</small></span><strong>−1.30</strong></div>
+          <div class="loading-cover" aria-hidden="true">
+            <span class="skeleton skeleton-title"></span>
+            <span class="skeleton skeleton-number"></span>
+            <span class="skeleton skeleton-bar"></span>
+            <span class="skeleton skeleton-line"></span>
+            <span class="skeleton skeleton-row"></span>
+            <span class="skeleton skeleton-row"></span>
+          </div>
+        </div>
+        <div class="visual-sticker sticker-bottom"><span aria-hidden="true">↗</span> A calmer<br>kind of money app</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Beeza highlights">
+      <div class="ticker-inner">
+        <span>Daily spending, made clear</span><i aria-hidden="true">✳</i>
+        <span>Made for students</span><i aria-hidden="true">✳</i>
+        <span>Built for Bahrain</span><i aria-hidden="true">✳</i>
+        <span>Daily spending, made clear</span><i aria-hidden="true">✳</i>
+      </div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-kicker"><span>01</span> The idea</div>
+      <div class="intro-content">
+        <h2>A better feel for<br>where it <span>goes.</span></h2>
+        <div class="intro-aside">
+          <p>One coffee. A ride home. Lunch with friends. Beeza brings the little spends together, so you can make the next choice with your eyes open.</p>
+          <a class="text-link" href="#solutions">See how it works <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="principles">
+        <article class="principle-card principle-green">
+          <span class="principle-number">01 / NOTICE</span>
+          <span class="principle-art art-eye" aria-hidden="true"><span></span></span>
+          <h3>See today clearly.</h3>
+          <p>Everyday spending, gathered in one simple view.</p>
+        </article>
+        <article class="principle-card principle-yellow">
+          <span class="principle-number">02 / CHOOSE</span>
+          <span class="principle-art art-sun" aria-hidden="true">✳</span>
+          <h3>Choose your pace.</h3>
+          <p>Set a daily amount that works for your own budget.</p>
+        </article>
+        <article class="principle-card principle-lilac">
+          <span class="principle-number">03 / RESET</span>
+          <span class="principle-art art-arrow" aria-hidden="true">↗</span>
+          <h3>Start fresh tomorrow.</h3>
+          <p>One day at a time. No guilt, just a better view.</p>
+        </article>
+      </div>
+      <div class="about-direction">
+        <article>
+          <p class="team-role">OUR VISION</p>
+          <p class="direction-statement">A future where money feels manageable—even on a student budget.</p>
+        </article>
+        <article>
+          <p class="team-role">WHAT WE’RE WORKING TOWARD</p>
+          <ul>
+            <li>Make everyday spending easy to see.</li>
+            <li>Help students pause and choose with confidence.</li>
+            <li>Build around Bahrain, with privacy in mind.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="solutions section-wrap" id="solutions">
+      <div class="section-heading">
+        <div class="section-kicker"><span>02</span> What Beeza does</div>
+        <div>
+          <h2>Good money habits,<br>without the <span>homework.</span></h2>
+          <p class="heading-copy">A few useful tools for the moments that matter in your day.</p>
+        </div>
+      </div>
+      <div class="solution-list">
+        <article class="solution-row">
+          <span class="solution-index">01</span>
+          <div class="solution-icon icon-message" aria-hidden="true"><span>•••</span><i>↘</i></div>
+          <div class="solution-text"><h3>Spending, gathered</h3><p>Beeza can pick up supported transaction messages already on your phone, so you spend less time entering purchases.</p></div>
+          <span class="row-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="solution-row">
+          <span class="solution-index">02</span>
+          <div class="solution-icon icon-limit" aria-hidden="true"><span>5</span><i>BHD</i></div>
+          <div class="solution-text"><h3>A daily limit that fits</h3><p>Choose a daily spending guide that suits your income and keep the day in perspective.</p></div>
+          <span class="row-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="solution-row">
+          <span class="solution-index">03</span>
+          <div class="solution-icon icon-nudge" aria-hidden="true"><span>80</span><i>%</i></div>
+          <div class="solution-text"><h3>A nudge at the right time</h3><p>Gentle alerts at 50%, 80% and 100% of your daily limit help you pause before spending more.</p></div>
+          <span class="row-arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="solution-row">
+          <span class="solution-index">04</span>
+          <div class="solution-icon icon-pause" aria-hidden="true">24<span>h</span></div>
+          <div class="solution-text"><h3>Room to think</h3><p>A cooling-off reminder can help you take a little time before an unplanned purchase.</p></div>
+          <span class="row-arrow" aria-hidden="true">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-band" id="features">
+      <div class="feature-band-inner section-wrap">
+        <div class="feature-copy">
+          <div class="section-kicker section-kicker-light"><span>03</span> Why Beeza</div>
+          <h2>Helpful by design.<br><span>Honest by default.</span></h2>
+          <p>Beeza is being made around real student spending in Bahrain—not another bank dashboard to figure out.</p>
+          <div class="feature-points">
+            <div><span class="check" aria-hidden="true">✓</span><span><strong>On your phone</strong><small>Supported messages are processed on your device by default.</small></span></div>
+            <div><span class="check" aria-hidden="true">✓</span><span><strong>No guessing</strong><small>If a message isn’t understood, Beeza won’t quietly add it as a purchase.</small></span></div>
+            <div><span class="check" aria-hidden="true">✓</span><span><strong>Arabic & English app</strong><small>Designed for both languages. Reading Arabic bank messages is still in development.</small></span></div>
+          </div>
+        </div>
+        <div class="feature-art" aria-label="A simple illustration of spending staying within a daily budget">
+          <div class="art-label label-one">Your limit</div>
+          <div class="art-label label-two">Your choice</div>
+          <div class="art-shape shape-outer"><div class="shape-inner"><span>BHD</span><strong>5</strong><small>for today</small><i aria-hidden="true">✳</i></div></div>
+          <div class="art-stamp">A GOOD<br>PLACE TO<br>START</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="audience section-wrap">
+      <div class="audience-title">
+        <div class="section-kicker"><span>04</span> Made for</div>
+        <h2>Student life.<br><span>Real life.</span></h2>
+      </div>
+      <div class="audience-copy">
+        <p>For students in Bahrain who pay for everyday things by card or wallet and want a clearer sense of what’s left for today.</p>
+        <div class="audience-tags"><span>First budget</span><span>Busy days</span><span>Small purchases</span><span>Fresh starts</span></div>
+        <p class="support-note"><span aria-hidden="true">✳</span> Message support depends on the bank and wording. English formats are supported for selected senders; Arabic transaction messages aren’t read yet.</p>
+      </div>
+    </section>
+
+    <section class="demo-section" id="demo">
+      <div class="demo-inner section-wrap">
+        <div class="demo-heading">
+          <div class="section-kicker"><span>05</span> Take a look</div>
+          <h2>A little preview<br>of <span>your day.</span></h2>
+          <p>This sample shows how Beeza’s daily spending view could feel. It uses pretend numbers—no bank connection, messages, or personal data.</p>
+          <div class="demo-badge"><span class="status-dot"></span> Preview template · In development</div>
+        </div>
+        <div class="demo-device">
+          <div class="demo-topline"><span>YOUR DAILY PREVIEW</span><span class="demo-live"><i></i> SAMPLE DATA</span></div>
+          <div class="demo-balance">
+            <div><span class="muted small-copy">You’ve spent today</span><p>BHD <strong data-demo-spent>2.10</strong></p></div>
+            <div class="demo-day">MON<br><strong>16</strong></div>
+          </div>
+          <div class="demo-meter-wrap">
+            <div class="demo-meter" role="progressbar" aria-label="Sample daily spending" aria-valuemin="0" aria-valuemax="100" aria-valuenow="42"><span data-demo-meter></span></div>
+            <div class="demo-meter-label"><span data-demo-percent>42%</span><span>of BHD 5.00</span></div>
+          </div>
+          <div class="demo-message" data-demo-message aria-live="polite">
+            <span class="message-icon" aria-hidden="true">✓</span>
+            <span><strong>You’re on track</strong><small>There’s room left in today’s plan.</small></span>
+          </div>
+          <div class="demo-actions">
+            <span>Try a sample purchase</span>
+            <div><button type="button" data-add="0.5">+ BHD 0.50</button><button type="button" data-add="1">+ BHD 1.00</button></div>
+          </div>
+          <button type="button" class="reset-button" data-reset>Reset sample</button>
+          <p class="demo-disclaimer">Illustrative only. This is not a working bank-connected app.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team section-wrap">
+      <div class="section-heading team-heading">
+        <div class="section-kicker"><span>06</span> The people</div>
+        <div>
+          <h2>Two people.<br>One useful <span>idea.</span></h2>
+          <p class="heading-copy">We’re a small team building a calmer way to handle everyday spending.</p>
+        </div>
+      </div>
+      <div class="team-cards">
+        <article class="team-card">
+          <div class="team-portrait portrait-one"><span>01</span><i aria-hidden="true">✳</i></div>
+          <div class="team-detail"><div><p class="team-role">TEAM MEMBER</p><h3>Name coming soon</h3><p>Role coming soon</p></div><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile placeholder for team member one">in ↗</a></div>
+        </article>
+        <article class="team-card">
+          <div class="team-portrait portrait-two"><span>02</span><i aria-hidden="true">↗</i></div>
+          <div class="team-detail"><div><p class="team-role">TEAM MEMBER</p><h3>Name coming soon</h3><p>Role coming soon</p></div><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile placeholder for team member two">in ↗</a></div>
+        </article>
+        <div class="team-mission">
+          <span class="mission-icon" aria-hidden="true">✳</span>
+          <p class="team-role">OUR MISSION</p>
+          <p>Make everyday money feel a little easier to understand—and a little easier to manage.</p>
+          <span class="mission-foot">Small steps. More choice.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-inner section-wrap">
+        <div class="section-kicker section-kicker-light"><span>07</span> Say hello</div>
+        <div class="contact-content">
+          <div>
+            <h2>Let’s make money<br>feel <span>simpler.</span></h2>
+            <p>Have a question or want to follow along? We’d love to hear from you.</p>
+            <a class="contact-email" href="mailto:hello@beeza.app">hello@beeza.app <span aria-hidden="true">↗</span></a>
+            <p class="placeholder-note">Email and LinkedIn links are placeholders—update them with your live details before launch.</p>
+            <a class="linkedin-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Find us on LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <form class="contact-form" data-contact-form>
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="name" autocomplete="name" placeholder="How should we address you?" required>
+            <label for="contact-email">Email address</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <label for="contact-message">What’s on your mind?</label>
+            <textarea id="contact-message" name="message" rows="3" placeholder="Write us a note..." required></textarea>
+            <button class="button button-light" type="submit">Prepare your message <span aria-hidden="true">↗</span></button>
+            <p class="form-feedback" data-form-feedback aria-live="polite">This form opens your email app; it doesn’t store your message.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">b</span><span>beeza</span></a>
+    <span>More clarity for today. More choice for tomorrow.</span>
+    <a href="#home" class="back-top">Back to top ↑</a>
+    <small>© <span data-year>2026</span> Beeza. A work in progress, made with care in Bahrain.</small>
+  </footer>
+</body>
+</html>
